@@ -26,11 +26,11 @@ class login_screen extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              txtform_f(type1: 'Email or Phone'),
+              txtform_f(type1: ' Email or Phone Number '),
               const SizedBox(
                 height: 30,
               ),
-              txtform_f(type1: 'Password'),
+              txtform_f(type1: 'Enter Password '),
               const SizedBox(
                 height: 30,
               ),
