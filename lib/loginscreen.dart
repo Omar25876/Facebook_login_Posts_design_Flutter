@@ -26,11 +26,11 @@ class login_screen extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              txtform_f(type1: 'Email or Phone'),
+              txtform_f(type1: ' Email or Phone Number '),
               const SizedBox(
                 height: 30,
               ),
-              txtform_f(type1: 'Password'),
+              txtform_f(type1: 'Enter Password '),
               const SizedBox(
                 height: 30,
               ),
@@ -45,14 +45,14 @@ class login_screen extends StatelessWidget {
                   },
                   style: const ButtonStyle(
                     backgroundColor: MaterialStatePropertyAll(
-                      Colors.white24,
+                      Colors.blue,
                     ),
                   ),
                   child: Container(
                       padding: const EdgeInsets.fromLTRB(110, 15, 100, 15),
                       child: const Text(
                         "LOG IN",
-                        style: TextStyle(fontSize: 25),
+                        style: TextStyle(fontSize: 25,color: Colors.white),
                       )),
                 ),
               ),
