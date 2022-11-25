@@ -26,13 +26,13 @@ class share extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                width: 35,
+                width: 18,
               ),
               Image(
                 image: AssetImage(
                   'lib/assets/comment.jpg',
                 ),
-                width: 25,
+                width: 15,
               ),
               Text(
                 '  Comment  ',
@@ -42,7 +42,7 @@ class share extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                width: 35,
+                width: 18,
               ),
               Image(
                 image: AssetImage(

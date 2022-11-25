@@ -45,14 +45,14 @@ class login_screen extends StatelessWidget {
                   },
                   style: const ButtonStyle(
                     backgroundColor: MaterialStatePropertyAll(
-                      Colors.white24,
+                      Colors.blue,
                     ),
                   ),
                   child: Container(
                       padding: const EdgeInsets.fromLTRB(110, 15, 100, 15),
                       child: const Text(
                         "LOG IN",
-                        style: TextStyle(fontSize: 25),
+                        style: TextStyle(fontSize: 25,color: Colors.white),
                       )),
                 ),
               ),

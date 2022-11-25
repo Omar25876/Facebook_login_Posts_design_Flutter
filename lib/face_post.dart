@@ -24,7 +24,7 @@ class postt extends StatelessWidget {
                 ),
               ),
               const Padding(
-                padding: EdgeInsets.fromLTRB(83, 15, 8, 8),
+                padding: EdgeInsets.fromLTRB(83, 15, 0, 8),
                 child: Text(
                   'Owner',
                   style: TextStyle(
@@ -80,15 +80,15 @@ class postt extends StatelessWidget {
                       image: AssetImage(
                         'lib/assets/like.jpg',
                       ),
-                      width: 50,
+                      width: 25,
                     ),
                     SizedBox(
-                      width: 120,
+                      width: 130,
                     ),
                     Text(
                       '100 Comments ',
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 16,
                           color: Colors.black,
                           fontWeight: FontWeight.bold),
                     ),
